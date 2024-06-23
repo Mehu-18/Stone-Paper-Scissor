@@ -1,0 +1,55 @@
+*{
+    margin: 0;;
+    padding: 0;
+}
+h1{
+    background: -webkit-linear-gradient(#ed4d03,#e9fb44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mainContainer{
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+.imgSelect{
+    height: 40vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+img{
+    height: 17vmin;
+    width: 17vmin;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    margin: 0 1.7rem;
+    padding: 1rem;
+}
+.score p{
+    color: white;
+    margin: 1rem 0;
+}
+
+.winner {
+    margin: 1rem 0;
+    color: white;
+}
+
+.again{
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    background-color: rgb(236, 79, 27);
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.hide{
+    display: none;
+}
